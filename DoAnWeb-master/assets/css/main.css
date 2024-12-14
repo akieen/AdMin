@@ -1,0 +1,124 @@
+.circle-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    background-image: url('https://hoayeuthuong.com/images/icon-hoa-tinh-yeu.png');
+    background-size: cover; /* Phủ đầy màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-position: center; /* Canh giữa hình ảnh */
+}
+
+
+.bg-custom-cayan{
+    background-color: rgb(42, 125, 227) !important;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+.footer h5 {
+    color: #d63384;
+    font-weight: bold;
+}
+.footer a {
+    text-decoration: none;
+    color: #6c757d;
+}
+.footer a:hover {
+    color: #d63384;
+}
+.footer .social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #6c757d;
+}
+.footer .social-icons a:hover {
+    color: #d63384;
+}
+.service-section {
+    background-color: #f8f9fa;
+}
+.service-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.service-card:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.service-card .icon {
+    font-size: 2rem;
+    color: #d63384;
+    margin-bottom: 10px;
+}
+.service-card h5 {
+    color: #d63384;
+    font-weight: bold;
+}
+.service-card p {
+    color: #6c757d;
+}
+
+
+.list-group-item:hover {
+    background-color: #ffffff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-detail {
+    margin-top: 30px;
+}
+
+.product-detail .product-image img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.product-actions {
+    margin-top: 20px;
+}
+
+.product-actions .btn {
+    width: 48%;
+}
+
+.product-actions .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.product-actions .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.logout-btn {
+    display: none;
+    z-index: 999 !important;
+}
+
+.user-info:hover .logout-btn {
+    display: inline-block;
+    z-index: 99999 !important;
+}
+
+.user-info {
+    position: relative;
+}
+.logout-btn {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    transform: translateY(5px); 
+    white-space: nowrap; 
+    padding: 5px 10px;
+}
+
+
+.user-name:hover .logout-btn {
+    display: inline-block;
+}
